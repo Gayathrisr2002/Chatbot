@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Questionnaire</title>
+	<style>
+        .nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39, 0.6), transparent);
+    z-index: 100;
+}
+.nav-logo p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.logo p{
+    color: white;
+	padding-left: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+	font-size: 16;
+}
+.link:hover, .active{
+    border-bottom: 2px solid #fff;
+}
+.nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+#registerBtn{
+    margin-left: 15px;
+}
+.btn.white-btn{
+    background: rgba(255, 255, 255, 0.7);
+}
+.btn.btn.white-btn:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.nav-menu-btn{
+    display: none;
+}
+    </style>
+
+</head>
+    <body style="background-color:#1a6985">
+    <!-- <body style="background-color:#009688"> -->
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>FREIDA .</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="link ">Home</a></li>
+                    <!-- <li><a href="about.html" class="link">About</a></li>  -->
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div> 
+        </nav>
+        <div style="margin-top: 100px">
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDXkGb4nr5L4fTMLIbRBsfA6OzWFiF1LqlyAiKqZgGwaVpqA/viewform?embedded=true" width="110%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6JsQik5hvnsE4OC0FjvivXwTenegaBt5cUREprEZMGF3xSg/viewform?embedded=true" width="110%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
+
+
+
+    </body>
+</html>
